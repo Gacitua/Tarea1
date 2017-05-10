@@ -9,9 +9,8 @@ import java.util.Arrays;    //Se importa la librería que sirve para la función
 public class Ejercicio1 {
     /**
      *
-     * @param a
-     * @param b
-     * @return
+     * @param b   //Parámetro b que corrsponde al arreglo que recibe el método "rotar"
+     * @return    //Informa de lo que devuelve el método, no se aplica en constructores o métodos "void".
      */
     public static int[] rotar(int[] b){   //Se crea el método rotar que hace que el primer elemento del arreglo pase a ser el segundo, el segundo pase a ser el tercero, ..., y el último ítem pase a ser el primero del arreglo.
         int e1;     //Se declara la variable e1
